@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+librosa
+resampy
+flask
+h5py
+gunicorn
+matplotlib
+soundfile
