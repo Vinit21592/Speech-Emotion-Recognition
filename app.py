@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Load your trained model
-model = load_model('model\ser_lstm_model.h5')
+model = load_model('ser_lstm_model.h5')
 
 # Define the emotions your model predicts
 emotions = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'ps', 'sad']  # Modify based on your model
