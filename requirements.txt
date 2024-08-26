@@ -10,3 +10,4 @@ gunicorn==23.0.0
 matplotlib==3.9.2
 soundfile==0.12.1
 joblib==1.4.2
+streamlit==1.37.1
