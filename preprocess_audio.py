@@ -20,6 +20,6 @@ def preprocess_audio(file_path):
     # Transpose to get shape (time_steps, n_mfcc)
     mfcc_scaled = np.mean(mfcc.T, axis=0)
 
-    mfcc_scaled = mfcc_scaled.reshape(1, -1, 1)
+    mfcc_scaled = mfcc_scaled.reshape(1, -1)
 
     return mfcc_scaled
